@@ -1,1 +1,8 @@
 @import "tailwindcss";
+@tailwind utilities;
+
+@layer utilities {
+    .section-min-height {
+        min-height: calc(100vh-60px);
+    }
+}
